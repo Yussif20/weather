@@ -1,0 +1,45 @@
+/* General Styles  */
+:root {
+  /* 
+    --light-blue: #1c5d99;
+    --light-green: #639fab;
+    --grey: #bbcde5; */
+  --primary: #ba181b;
+  --secondary: #161a1d;
+  --grey: #d3d3d3;
+  --white: #ffffff;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+}
+img picture svg video {
+  display: block;
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main styles  */
